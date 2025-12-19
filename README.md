@@ -5,7 +5,7 @@ The model follows an **Encoder–Decoder architecture**, implemented entirely in
 
 ---
 
-## 📌 Overview
+## Overview
 - **Task**: Image Captioning
 - **Architecture**: CNN + LSTM (Encoder–Decoder)
 - **Framework**: PyTorch
@@ -13,7 +13,7 @@ The model follows an **Encoder–Decoder architecture**, implemented entirely in
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 ### Encoder (CNN)
 - Pretrained Convolutional Neural Network
@@ -27,7 +27,7 @@ The model follows an **Encoder–Decoder architecture**, implemented entirely in
 
 ---
 
-## 🗂 Dataset & Preprocessing
+## Dataset & Preprocessing
 - Image–caption dataset
 - Text preprocessing:
   - Lowercasing
@@ -41,14 +41,14 @@ The model follows an **Encoder–Decoder architecture**, implemented entirely in
 
 ---
 
-## ⚙️ Training
+## Training
 - Loss Function: Cross-Entropy Loss
 - Optimizer: Adam
 - Trained using teacher forcing
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Open `image-captioning.ipynb`
 2. Install dependencies:
    ```bash
